@@ -1,0 +1,34 @@
+{
+  "strategy_name": "ST+HMA+WT+MACD_default",
+  "signal_type": "supertrend",
+  "confluence": [
+    "hma",
+    "wavetrend",
+    "macd"
+  ],
+  "min_confluence": 2,
+  "supertrend_atr_period": 14,
+  "supertrend_multiplier": 1.7,
+  "hma_period": 10,
+  "wavetrend_channel": 6,
+  "wavetrend_average": 13,
+  "wavetrend_ob": 53,
+  "wavetrend_os": -53,
+  "macd_fast": 14,
+  "macd_slow": 28,
+  "macd_signal": 11,
+  "ut_key_value": 1.5,
+  "ut_atr_period": 10,
+  "sl_atr_multiplier": 1.5,
+  "tp1_atr_multiplier": 2.0,
+  "tp2_atr_multiplier": 4.0,
+  "performance": {
+    "avg_win_rate": 41.8,
+    "avg_pnl_pct": -0.85,
+    "avg_profit_factor": 1.05,
+    "avg_max_drawdown": 34.42,
+    "avg_sharpe": 0.21,
+    "markets_profitable": 8,
+    "total_trades": 6113
+  }
+}
